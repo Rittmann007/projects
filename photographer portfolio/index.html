@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white">
+    <nav class="flex justify-around py-7 border-b-2 border-white">
+        <div><a href="#About">About</a></div>
+        <div><a href="#Work">Work</a></div>
+        <div><a href="#contact">Contact me</a></div>
+    </nav>
+    <section id="About">
+        <div class="flex justify-around py-6 sm:h-auto h-[50vh]">
+            <div class="flex flex-col justify-center">
+                <div>Hi i'm</div>
+                <div class="text-6xl font-bold">Peter Jackson</div>
+                <div class="text-4xl">A <span id="element" class="text-violet-700"></span> Photographer</div>
+            </div>
+            <div class="sm:block hidden"><img class="h-[26rem]" src="assets/chris-bznawBAIpFI-unsplash.jpg" alt="img"></div>
+        </div>
+
+        <div id="timeline" class=" border-t-2 border-white">
+            <div class="w-[80vw] m-auto h-[20vh] border-l-2 border-white flex">
+                <div class="w-[50%] border-b-2 border-white h-[95%]"></div>
+                <div class="w-[50%] h-full flex items-end px-2 text-xl pt-2"> Graduated from Boston University of Drama and Flim (1998-2002)</div>
+
+            </div>
+            <div class="w-[80vw] m-auto h-[30vh] border-l-2 border-white flex">
+                <div class="w-[50%] border-b-2 border-white h-[95%]"></div>
+                <div class="w-[50%] h-full flex items-end px-2 text-xl"> worked with Times magazine(2003-2008)</div>
+
+            </div>
+            <div class="w-[80vw] m-auto h-[30vh] border-l-2 border-white flex">
+                <div class="w-[50%] border-b-2 border-white h-[95%]"></div>
+                <div class="w-[50%] h-full flex items-end px-2 text-xl"> worked with national Geographic (2008-2011) </div>
+
+            </div>
+            <div class="w-[80vw] m-auto h-[30vh] border-l-2 border-white mb-8 flex">
+                <div class="w-[50%] border-b-2 border-white h-[95%]"></div>
+                <div class="w-[50%] h-full flex items-end px-2 text-xl"> working with Vogue and as a Freelancer(2012-present)</div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="Work">
+        <div class="w-full text-6xl flex justify-center font-bold my-32 py-8 border-b-2 border-white">My Works</div>
+        <div class="slide w-full h-[90vh] relative flex justify-center items-center ">
+            <div class="h-[88vh] sm:w-[30vw] w-screen absolute">
+                <div
+                    class="slides h-full w-full absolute top-0 left-0 flex justify-center items-center visible animate-slide">
+                    <img class="h-full" src="assets/harry-dona-8gDLS26Rkog-unsplash.jpg" alt="img"></div>
+                <div
+                    class="slides h-full w-full absolute top-0 left-0 flex justify-center items-center invisible animate-slide">
+                    <img class="h-full" src="assets/ivan-diaz-KBcSvpGkI94-unsplash.jpg" alt="img"></div>
+                <div
+                    class="slides h-full w-full absolute top-0 left-0 flex justify-center items-center invisible animate-slide">
+                    <img class="h-full" src="assets/sanjeevan-satheeskumar-MG8c-4n1QVE-unsplash.jpg" alt="img"></div>
+                <div
+                    class="slides h-full w-full absolute top-0 left-0 flex justify-center items-center invisible animate-slide">
+                    <img class="h-full" src="assets/tamara-malaniy-4EnTkQBPCOs-unsplash.jpg" alt="img"></div>
+
+            </div>
+            <button id="after" class="sm:block hidden absolute text-7xl right-64">></button>
+            <button id="previous" class="sm:block hidden absolute text-7xl left-64">
+                < </button>
+
+
+        </div>
+
+
+
+        <div class="w-full flex flex-wrap justify-evenly my-20">
+
+            <div><img class="w-[18rem]" src="assets/jakob-owens-mLIurLmSRAY-unsplash.jpg" alt="img"></div>
+            <div><img class="w-[18rem]" src="assets/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="img"></div>
+            <div><img class="w-[18rem]" src="assets/vadim-paripa-PuXtB1B4zL8-unsplash.jpg" alt="img"></div>
+        </div>
+
+
+
+        <div class="w-full flex justify-center">
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                Show more
+                </span>
+                </button>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section id="contact" class="h-[24rem] border-t-2 border-white flex flex-wrap justify-evenly mt-24 p-7">
+        <div class="w-[41rem]">
+            <div class="text-7xl font-bold">Contact Me</div>
+            <div class="text-3xl">rittmann007@gmail.com</div>
+        </div>
+        <div class="flex justify-evenly text-2xl w-[41rem]">
+            <div><i class="fa-brands fa-facebook"></i></div>
+            <div><i class="fa-brands fa-instagram"></i></div>
+            <div><i class="fa-brands fa-twitter"></i></div>
+            <div><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Wedding', 'Nature'],
+            typeSpeed: 50,
+        });
+        let current = 0;
+
+        let slides = document.querySelectorAll(".slides");
+        let nextButton = document.getElementById("after");
+        let prevButton = document.getElementById("previous");
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                if (i === index) {
+                    slide.style.visibility = "visible";
+                    slide.classList.remove("animate-slide"); // Remove animation class
+                    void slide.offsetWidth; // Trigger reflow to reapply animation
+                    slide.classList.add("animate-slide"); // Reapply animation class
+                } else {
+                    slide.style.visibility = "hidden";
+                }
+            });
+        }
+
+        function nextSlide() {
+            let next = (current + 1) % slides.length;
+            showSlide(next);
+            current = next;
+        }
+
+        function prevSlide() {
+            let next = current === 0 ? slides.length - 1 : current - 1;
+            showSlide(next);
+            current = next;
+        }
+
+        nextButton.addEventListener("click", nextSlide);
+        prevButton.addEventListener("click", prevSlide);
+
+        setInterval(nextSlide, 2000);
+
+        // Initial display of the first slide
+        showSlide(current);
+    </script>
+
+</body>
+
+</html>

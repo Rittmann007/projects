@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitter_clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex justify-center text-white bg-black">
+    <div id="first" class="bg-black h-screen w-[17%] hidden sm:block sticky top-0">
+        <div class="flex text-3xl mt-2"><i class="fa-brands fa-x-twitter"></i></div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-solid fa-house"></i></div>Home
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-solid fa-magnifying-glass"></i></div>Explore
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-regular fa-bell"></i></div>Notifications
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-regular fa-envelope"></i></div>messages
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-regular fa-square-minus"></i></div>Grok
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-regular fa-bookmark"></i></div>Bookmarks
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-solid fa-user-group"></i></div>Communities
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-brands fa-x-twitter"></i></div>Premium
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-solid fa-user-large"></i></div>profile
+        </div>
+        <div class="flex mt-5 items-center text-xl">
+            <div class="mr-5 text-2xl"><i class="fa-solid fa-ellipsis"></i></div>more
+        </div>
+        <button class="rounded-[2.5rem] w-11/12 h-[3.5rem] bg-blue-600 mt-3">Post</button>
+        <div class=" profile flex items-center w-full mt-9">
+            <div class="h-9 w-9 bg-white rounded-full mr-3"></div>
+            <div class="flex justify-between items-center w-[90%]">
+                <div>
+                    <p class="font-bold">xyxy</p>
+                    <p class="text-gray-500">@xyxy</p>
+                </div>
+                <div class="mr-4 mb-2">
+                    <p class="text-2xl">...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="second" class="bg-black h-full sm:w-[39%] w-full border-x-[0.1px] border-gray-600">
+        <div id="foryoufollowing"
+            class="w-full h-14 flex border-b-[0.1px] border-gray-600 bg-black opacity-90 sticky top-0">
+            <div class="foryou h-full w-[50%] flex justify-center items-center">For you</div>
+            <div class="following h-full w-[50%] flex justify-center items-center">Following</div>
+        </div>
+        <div id="whatishappening" class="w-full h-[118px] border-y-[0.1px] border-gray-600 bg-black hidden sm:block">
+            <div class="round w-full h-[100%] flex items-center">
+                <div class="h-10 w-10 bg-white rounded-full mx-[12px] mb-12"></div>
+
+                <div class="h-[100%] w-[90%]">
+                    <div class="h-[50%] flex items-center">
+                        <p class="text-xl text-gray-500">What is happening?!</p>
+                    </div>
+                    <div class=" icon flex h-[50%] items-center justify-between">
+                        <div class="flex text-blue-600 w-52 justify-between">
+                            <div><i class="fa-solid fa-image"></i></div>
+                            <div><i class="fa-regular fa-note-sticky"></i></div>
+                            <div><i class="fa-solid fa-list-ul"></i></div>
+                            <div><i class="fa-regular fa-face-smile"></i></div>
+                            <div><i class="fa-regular fa-calendar"></i></div>
+                            <div><i class="fa-solid fa-location-dot"></i></div>
+                        </div>
+                        <div class="mr-3"><button class="h-8 w-16 bg-blue-600 rounded-2xl">Post</button></div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div
+            class="w-full h-12 bg-black sm:flex justify-center items-center text-blue-600 border-b-[0.1px] border-gray-600 hidden">
+            Show posts</div>
+        <div class="post w-full px-4 border-b-[0.1px] border-gray-600">
+            <div class="flex  items-center pt-1 w-full h-16">
+                <div class="h-7 w-7 bg-white rounded-full mr-3"></div>
+                <div class="w-[95%]">
+                    <div class="flex justify-between items-center h-5">
+                        <div class="flex ">
+                            <p class="font-bold">Daily Loud</p>
+                            <p class="text-gray-500">@DailyLoud.3h</p>
+                        </div>
+                        <div class=""><span class="text-2xl">...</span></div>
+
+                    </div>
+                    <div class="">gdfdgdfdgdfdgdfdf</div>
+                </div>
+            </div>
+            <div class="postphoto w-[92.5%] h-[516px] bg-white sm:ml-10 ml-7 rounded-2xl"></div>
+            <div class="likes w-[92.5%] h-[41px] sm:ml-10 ml-7 flex items-center justify-between text-gray-500">
+                <div class="flex items-center"><i class="fa-regular fa-comment"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-retweet"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-heart"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-chart-simple"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-bookmark"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+            </div>
+        </div>
+        <div class="post w-full px-4 border-b-[0.1px] border-gray-600">
+            <div class="flex  items-center pt-1 w-full h-16">
+                <div class="h-7 w-7 bg-white rounded-full mr-3"></div>
+                <div class="w-[95%]">
+                    <div class="flex justify-between items-center h-5">
+                        <div class="flex ">
+                            <p class="font-bold">Daily Loud</p>
+                            <p class="text-gray-500">@DailyLoud.3h</p>
+                        </div>
+                        <div class=""><span class="text-2xl">...</span></div>
+
+                    </div>
+                    <div class="">gdfdgdfdgdfdgdfdf</div>
+                </div>
+            </div>
+            <div class="postphoto w-[92.5%] h-[304px] bg-white sm:ml-10 ml-7 rounded-2xl"></div>
+            <div class="likes w-[92.5%] h-[41px] sm:ml-10 ml-7 flex items-center justify-between text-gray-500">
+                <div class="flex items-center"><i class="fa-regular fa-comment"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-retweet"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-heart"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-chart-simple"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-bookmark"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+            </div>
+        </div>
+        <div class="post w-full px-4 border-b-[0.1px] border-gray-600">
+            <div class="flex  items-center pt-1 w-full h-16">
+                <div class="h-7 w-7 bg-white rounded-full mr-3"></div>
+                <div class="w-[95%]">
+                    <div class="flex justify-between items-center h-5">
+                        <div class="flex ">
+                            <p class="font-bold">Daily Loud</p>
+                            <p class="text-gray-500">@DailyLoud.3h</p>
+                        </div>
+                        <div class=""><span class="text-2xl">...</span></div>
+
+                    </div>
+                    <div class="">gdfdgdfdgdfdgdfdf</div>
+                </div>
+            </div>
+            <div class="postphoto w-[92.5%] h-[516px] bg-white sm:ml-10 ml-7 rounded-2xl"></div>
+            <div class="likes w-[92.5%] h-[41px] sm:ml-10 ml-7 flex items-center justify-between text-gray-500">
+                <div class="flex items-center"><i class="fa-regular fa-comment"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-retweet"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-heart"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-solid fa-chart-simple"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+                <div class="flex items-center"><i class="fa-regular fa-bookmark"></i>
+                    <p class="text-xs ml-1">1234</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div id="third" class="bg-black h-full w-[25%] pl-5 hidden sm:block sticky top-0">
+        <div id="nav-search"
+            class="flex justify-evenly h-[50px] w-[350px] rounded-[1.5rem]  bg-gray-500 mt-[2px] sticky top-1">
+            <div id="magnifying-glass" class="w-[60px] flex justify-center items-center bg-gray-500 rounded-[1.5rem]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input id="searchbar" type="search" placeholder="Search"
+                class="w-[100%] text-[1rem] border-none bg-gray-500 rounded-[1.5rem]">
+        </div>
+        <div
+            class=" box1 bg-black w-[350px] h-[150px] px-4 py-2 my-3 rounded-2xl  flex flex-col justify-evenly border-[0.1px] border-gray-600">
+            <div>
+                <p class="text-xl font-extrabold">Subscribe to Premium</p>
+            </div>
+            <div>
+                <p class="text-[15px] ">Subscribe to unlock new features and if eligible,recieve a share of ads revenue
+                </p>
+            </div>
+            <button class="rounded-[2.5rem] w-[6.5rem] h-9 bg-blue-600">Subscribe</button>
+        </div>
+        <div
+            class=" box2 bg-black w-[350px] h-auto px-4 py-2 my-3 rounded-2xl  flex flex-col justify-evenly border-[0.1px] border-gray-600">
+            <div>
+                <p class="text-xl font-extrabold">What's happening</p>
+            </div>
+            <div id="trendingblock" class="my-4">
+                <div>
+                    <p class="text-gray-500 text-[13px]">Sports</p>
+                </div>
+                <div>
+                    <p class="text-[15px] font-bold">The Myth</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-[13px]">Trending with</p>
+                </div>
+
+            </div>
+            <div id="trendingblock" class="my-4">
+                <div>
+                    <p class="text-gray-500 text-[13px]">Sports</p>
+                </div>
+                <div>
+                    <p class="text-[15px] font-bold">The Myth</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-[13px]">Trending with</p>
+                </div>
+
+            </div>
+            <div id="trendingblock" class="my-4">
+                <div>
+                    <p class="text-gray-500 text-[13px]">Sports</p>
+                </div>
+                <div>
+                    <p class="text-[15px] font-bold">The Myth</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-[13px]">Trending with</p>
+                </div>
+
+            </div>
+            <div id="trendingblock" class="my-4">
+                <div>
+                    <p class="text-gray-500 text-[13px]">Sports</p>
+                </div>
+                <div>
+                    <p class="text-[15px] font-bold">The Myth</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-[13px]">Trending with</p>
+                </div>
+
+            </div>
+            <div id="trendingblock" class="my-4">
+                <div>
+                    <p class="text-gray-500 text-[13px]">Sports</p>
+                </div>
+                <div>
+                    <p class="text-[15px] font-bold">The Myth</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-[13px]">Trending with</p>
+                </div>
+
+            </div>
+        </div>
+        <div
+            class="whotofollow bg-black w-[350px] h-auto px-4 py-2 my-4 rounded-2xl  flex flex-col justify-evenly border-[0.1px] border-gray-600">
+            <div>
+                <p class="text-xl font-extrabold">Who to follow</p>
+            </div>
+            <div class=" profile flex items-center w-full mt-5">
+                <div class="h-9 w-9 bg-white rounded-sm mr-3"></div>
+                <div class="flex justify-between items-center w-[90%]">
+                    <div>
+                        <p class="font-bold">xyxy</p>
+                        <p class="text-gray-500">@xyxy</p>
+                    </div>
+                    <button class="h-8 w-20 bg-white text-black font-semibold rounded-[2.5rem]">Follow</button>
+                </div>
+            </div>
+            <div class=" profile flex items-center w-full mt-5">
+                <div class="h-9 w-9 bg-white rounded-sm mr-3"></div>
+                <div class="flex justify-between items-center w-[90%]">
+                    <div>
+                        <p class="font-bold">xyxy</p>
+                        <p class="text-gray-500">@xyxy</p>
+                    </div>
+                    <button class="h-8 w-20 bg-white text-black font-semibold rounded-[2.5rem]">Follow</button>
+                </div>
+            </div>
+            <div class=" profile flex items-center w-full mt-5">
+                <div class="h-9 w-9 bg-white rounded-sm mr-3"></div>
+                <div class="flex justify-between items-center w-[90%]">
+                    <div>
+                        <p class="font-bold">xyxy</p>
+                        <p class="text-gray-500">@xyxy</p>
+                    </div>
+                    <button class="h-8 w-20 bg-white text-black font-semibold rounded-[2.5rem]">Follow</button>
+                </div>
+            </div>
+            <div class=" profile flex items-center w-full mt-5">
+                <div class="h-9 w-9 bg-white rounded-sm mr-3"></div>
+                <div class="flex justify-between items-center w-[90%]">
+                    <div>
+                        <p class="font-bold">xyxy</p>
+                        <p class="text-gray-500">@xyxy</p>
+                    </div>
+                    <button class="h-8 w-20 bg-white text-black font-semibold rounded-[2.5rem]">Follow</button>
+                </div>
+            </div>
+            <div class="text-blue-600 my-3">Show more</div>
+
+        </div>
+        <div class="whotofollow bg-black w-[350px] h-auto px-4 pt-2 pb-16 my-4 rounded-2xl text-gray-500 text-xs">
+            <p>Terms of Service
+                Privacy Policy
+                Cookie Policy
+                Accessibility
+                Ads info
+
+                More
+                © 2024 X Corp.</p>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

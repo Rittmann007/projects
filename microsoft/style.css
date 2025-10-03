@@ -1,0 +1,281 @@
+*{
+margin: 0;
+padding: 0;
+border: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#navbar {
+height: 56px;
+display: flex;
+align-items: center;
+padding-left: 66px;
+padding-right: 66px;
+}
+
+#logo-div {
+    height: 23px;
+    width: 108px;
+    margin-left: 15px;
+}
+
+#logo-img {
+    background-image: url(microsoft\ logo.png);
+    background-size: cover;
+    height: 23px;
+    width: 100%;
+}
+
+#navbar-div-2{
+    width: 69%;
+    margin-left: 15px;
+}
+
+#navbar-div-2 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+#navbar-div-3{
+    display: flex;
+}
+
+#navbar-div-3 p{
+    margin-left: 28px;
+}
+
+
+
+#hero-section{
+    height: 565px;
+    width: 100%;
+}
+
+#hero-img{
+    background-image: url(hero\ img.avif);
+    background-size: cover;
+    height: 565px;
+}
+
+
+
+#icon-section{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon{
+    height: 80px;
+    width: 220px;
+    margin: 16px 20px 16px 20px;
+}
+
+#icon-img-1{
+    background-image: url(icon\ 1.webp);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+
+#icon-img-2{
+    background-image: url(icon\ 2.webp);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 54px;
+    margin-bottom: 10px;
+}
+
+#icon-img-3{
+    background-image: url(icon\ 3.webp);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+
+#icon-img-4{
+    background-image: url(icon\ 1.webp);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#fixing-div-1{
+    margin-left: 240px;
+}
+.font{
+    font-size: 16px;
+}
+
+
+
+
+#products-section{
+   height: 380px;
+   display: flex;
+}
+
+.product-box{
+    height: 380px;
+    width: 21%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.product-img-div{
+    height: 150px;
+    width: 290px;
+}
+
+#product-img-1{
+    height: 100%;
+    width: 100%;
+    background-image: url(img1.webp);
+    background-size: cover;
+}
+
+#product-img-2{
+    height: 100%;
+    width: 100%;
+    background-image: url(img2.webp);
+     background-size: cover;
+}
+
+#product-img-3{
+    height: 100%;
+    width: 100%;
+    background-image: url(img3.webp);
+    background-size: cover;
+}
+
+#product-img-4{
+    height: 100%;
+    width: 100%;
+    background-image: url(img4.webp);
+    background-size: cover;
+}
+#fixing-div-2{
+    margin-left: 55px;
+}
+.product{
+    margin-bottom: 20px;
+}
+
+
+
+#hero-section-2{
+
+    height: 560px;
+    margin: 54px 54px 54px 54px;
+    background-image: url(hero\ img\ 2.avif);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#product-box-1{
+    height: 280px;
+    width: 370px;
+    margin-left: 120px;
+}
+#product-box-1 button{
+    height: 45px;
+    width: 174px;
+    background-color: #0067b8;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+#heading {
+    height: 34px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 54px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+#product-img-5{
+    height: 100%;
+    width: 100%;
+    background-image: url(img5.avif);
+    background-size: cover;
+}
+
+#product-img-6{
+    height: 100%;
+    width: 100%;
+    background-image: url(img6.webp);
+    background-size: cover;
+}
+
+#product-img-7{
+    height: 100%;
+    width: 100%;
+    background-image: url(img7.jpg);
+    background-size: cover;
+}
+
+#product-img-8{
+    height: 100%;
+    width: 100%;
+    background-image: url(img8.webp);
+    background-size: cover;
+}
+#fixing-div-3{
+    margin-left: 40px;
+}
+
+#heading p{
+    margin-right: 25px;
+}
+
+
+
+
+#footer-2{
+    height: 400px;
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 100px;
+}
+#ul-1 a {
+    text-decoration: none;
+    color: #616161;
+}
+#ul-1 li{
+    margin-bottom: 10px;
+}
+#ul-1{
+list-style: none;
+margin-top: 37px;
+margin-left: 80px;
+}
+.big-text-1{
+    font-size: 15px;
+}
+.small-text-1{
+    font-size: 11px;
+}

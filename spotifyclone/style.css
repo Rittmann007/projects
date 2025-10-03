@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#maindiv{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#leftdiv{
+    border: 2px solid black;
+    width: 24vw;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+}
+#leftdiv i{
+    margin-right: 15px;
+   
+}
+i{
+     font-size: larger;
+}
+#rightdiv{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100%;
+    margin-left: 24.5%;
+}
+#upperpart{
+    height: 22vh;
+    background-color:#191919;
+margin: 0.4rem;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+#cross{
+    display: flex;
+    justify-content: space-between;
+}
+#lowerpart{
+    height: 78vh;
+    background-color:#191919;
+    margin: 0.4rem;
+border-radius: 10px;
+position: relative;
+}
+.m-1{
+margin-left: 20px;
+}
+
+#lowerpart header{
+    height: 10%;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#lowerpart footer{
+    height: 31%;
+    width: 100%;
+    background-color:#191919;
+    position: absolute;
+    bottom: 0px;
+}
+#lowerpart main{
+    height: 57%;
+    background-color:#191919;
+    margin: 0.4rem;
+    border-radius: 10px;
+
+}
+.overflow{
+    overflow: auto;
+}
+.leftscroll{
+    height: 55%;
+    width: 100%;
+    background-color:#282727;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+#lowerpart main::-webkit-scrollbar {
+            display: none;
+        }
+
+nav{
+    height: 4.5rem;
+    background-color:#191919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#leftnav{
+    width: 55px;
+    height: 30px;
+    background-color: #191919;
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+
+}
+#leftnav div{
+    padding: 0px 15px;
+}
+#rightnav{
+    display: flex;
+}
+button{
+    width: 7rem;
+    height: 3.2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+#buttondiv{
+    margin: 0px 25px;
+}
+#footer-2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#191919;
+}
+#footer-2 i{
+    margin-top: 2.5rem;
+}
+#ul-1 a {
+    text-decoration: none;
+    color: white;
+}
+#ul-1 li{
+    margin-bottom: 10px;
+}
+#ul-1{
+list-style: none;
+margin-top: 42px;
+}
+.songheader{
+    height: 10%;
+    background-color:#282727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+.songheader h2{
+    margin-left: 17px;
+}
+.songheader p{
+    margin-right: 14px;
+}
+.weightnormal{
+    font-weight: normal;
+}
+ 
+#rightdiv main {
+height: 90%;
+width: 100%;
+ }
+.songbox{
+    height: 15rem;
+    width: 14.28%;
+    background-image: linear-gradient(to bottom,#282727,#191919);
+    padding: 10px 0px;
+} 
+.songphoto{
+    height: 62%;
+    width: 90%;
+    background-color: antiquewhite;
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+.songdiv{
+    margin-left: 17px;
+}
+.songartist{
+     display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.border50{
+      border-radius: 50%;
+}
+.bordersquare{
+    border-radius:10px ;
+}
+.hide{
+    display: none;
+}
+@media (max-width:1400px) {
+    #leftdiv{
+        left: -100%;
+        transition: all .3s;
+        font-size: 13px;
+    }
+    #rightdiv{
+        margin-left: 0;
+    }
+    .hide{
+        display: inline;
+    }
+    #footer-2{
+        font-size: 16px;
+    }
+}
+@media (max-width:500px) {
+    #leftdiv{
+        width: 90vw;
+    }
+    #footer-2{
+        font-size: 8px;
+        height: 11rem;
+    }
+    #rightdiv nav{
+        font-size: 13px;
+    }
+    #rightdiv main{
+        font-size: 10px;
+    }
+    button{
+        width: 6rem;
+        height: 2.8rem;
+        font-size: 13px;
+    }
+    #leftnav{
+        margin-left: 2px;
+    }
+    #buttondiv{
+        margin-right: 7px;
+    }
+    .songphoto{
+        width: 80%;
+        height: 26%;
+    }
+    .songbox{
+        height: 11rem;
+    }
+    .songartist{
+        height: 7rem;
+    }
+}
